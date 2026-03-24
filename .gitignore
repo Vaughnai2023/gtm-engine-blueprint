@@ -1,0 +1,42 @@
+# === OS Files ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Sensitive Files ===
+.env
+.env.*
+*.key
+*.pem
+*.cert
+*credential*
+*secret*
+
+# === Claude Code ===
+.claude/
+
+# === Python (if any scripts are added later) ===
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# === Node (if any tooling is added later) ===
+node_modules/
+
+# === Build / Output ===
+outputs/
+dist/
+build/
+
+# === Logs ===
+*.log
+npm-debug.log*
