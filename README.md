@@ -2,6 +2,7 @@
 
 **A complete go-to-market engine I built from scratch for a UK healthtech company launching an AI product into the NHS.**
 
+
 15 automation workflows. AI-powered pipeline management. An orchestration layer that deploys full outbound campaigns in under 5 minutes. One person. Zero existing pipeline.
 
 ---
@@ -206,6 +207,6 @@ All 15 workflows are structurally complete and demo-ready. The metrics below rep
 
 ## About
 
-This GTM engine was designed for a UK healthtech company launching an AI-powered product into the NHS social prescribing market. The system covers everything from finding the first lead to generating a case study after a successful pilot — built to be operated by a single founding GTM hire working directly with the founder.
+This GTM engine was designed for a UK healthtech company launching an AI-powered product into the NHS social prescribing market. The system covers everything from finding the first lead to generating a case study after a successful pilot — built to be operated by connecting up to Claude Code using natural language.
 
 Want to talk about GTM strategy, automation, or how I'd build something like this for your company? Reach out.
