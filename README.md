@@ -4,7 +4,6 @@
 
 15 automation workflows. AI-powered pipeline management. An orchestration layer that deploys full outbound campaigns in under 5 minutes. One person. Zero existing pipeline.
 
-<!-- ![System Overview](screenshots/workflow-list.png) -->
 
 ---
 
@@ -141,6 +140,20 @@ These run on schedules — every Monday, Wednesday, Friday, or bi-weekly — and
 - **Competitor Contract Monitor** — Every two weeks, checks NHS procurement portals for competitor contracts approaching renewal. The best time to win a customer is when their current vendor's deal is about to expire.
 - **Leadership Appointment Monitor** — Every Friday, watches for new Clinical Directors and Digital Leads. New leaders have a 90-day window where they're actively looking for quick wins. If the parent company already operates in their area, the team gets a warm intro opportunity.
 
+![Board Paper Monitor — AI analyses ICB papers and routes by urgency](screenshots/BZ-04.png)
+*BZ-04: Board Paper Monitor — AI reads ICB board papers, scores urgency, and routes high-priority signals to the team*
+
+<details>
+<summary>More signal intelligence workflows</summary>
+
+![Competitor Contract Monitor](screenshots/BZ-07.png)
+*BZ-07: Competitor Contract Monitor — watches NHS procurement portals for contracts expiring within 90 days*
+
+![Leadership Appointment Monitor](screenshots/BZ-08.png)
+*BZ-08: Leadership Appointment Monitor — detects new Clinical Directors and checks for warm intro opportunities*
+
+</details>
+
 **Engagement Pipeline (4 workflows)**
 
 These capture people who interact with our LinkedIn content and turn them into leads:
@@ -149,9 +162,27 @@ These capture people who interact with our LinkedIn content and turn them into l
 - Daily batch: Every evening, the full day's engagement gets processed in one sweep
 - Smart routing: High-ICP-score leads get personalised outbound. Lower scores get softer marketing touches. Nobody falls through the cracks.
 
+![LinkedIn Engagement — Clay Callback with smart routing](screenshots/BZ-o2b.png)
+*BZ-02b: LinkedIn Engagement Clay Callback — deduplicates, scores by ICP fit, and routes to Hot Signal / Warm Signal / Nurture campaigns*
+
+<details>
+<summary>More engagement pipeline workflows</summary>
+
+![LinkedIn Engagement Capture](screenshots/BZ-02a.png)
+*BZ-02a: LinkedIn Engagement Capture — real-time Trigify webhook filters for ICP title match and pushes to Clay*
+
+![Content Engagement Flywheel](screenshots/BZ-06a.png)
+*BZ-06a: Content Engagement Flywheel — daily batch pull from Trigify, filters for ICP titles, pushes to Clay for enrichment*
+
+![Content Engagement — Clay Callback](screenshots/BZ-06b.png)
+*BZ-06b: Content Engagement Clay Callback — routes enriched engagers by ICP score to Instantly campaigns or HubSpot nurture*
+
+</details>
+
 **Reply Management (1 workflow — the showcase piece)**
 
-<!-- ![Reply Handler](screenshots/reply-handler.png) -->
+![Reply Handler — AI classifies replies into 6 categories with different actions](screenshots/BZ-03.png)
+*BZ-03: Reply Handler & Classification — the showcase workflow. AI reads every reply and routes to 6 different action paths.*
 
 This is the workflow I'm most proud of. When someone replies to a cold email, AI reads the reply and classifies it into one of six categories. Then it takes completely different actions for each:
 
@@ -174,6 +205,23 @@ These manage everything from the moment a client signs a pilot deal:
 - **Weekly Health Check** — Every Friday, pulls pilot metrics, compares against benchmarks, alerts the team if anything's below target, sends the client a weekly summary
 - **Milestone Triggers** — Strategically timed emails: Week 4 (first outcomes review), Week 8 (expansion conversation starts), Week 10 (internal alert to prepare proposal), Week 12 (final review + expansion offer)
 - **Completion** — AI generates a case study draft from the pilot data. The deal moves to "Expansion Opportunity."
+
+![Pilot Milestone Triggers — timed emails and alerts across 12-week pilot](screenshots/BZ-05c.png)
+*BZ-05c: Pilot Milestone Triggers — daily check routes to Week 4 outcomes review, Week 8 mid-pilot review, Week 10 expansion prep, or Week 12 final review*
+
+<details>
+<summary>More pilot lifecycle workflows</summary>
+
+![Pilot Onboarding Kickoff](screenshots/BZ-05a.png)
+*BZ-05a: Pilot Onboarding Kickoff — triggers on HubSpot deal stage change, sets milestones, sends welcome email, creates dashboard*
+
+![Weekly Pilot Health Check](screenshots/BZ-05b.png)
+*BZ-05b: Weekly Pilot Health Check — every Friday, AI compares metrics against benchmarks, alerts if below target*
+
+![Pilot Completion & Case Study](screenshots/BZ-05d.png)
+*BZ-05d: Pilot Completion & Case Study — AI generates case study from pilot data, moves deal to Expansion Opportunity*
+
+</details>
 
 **Error Handler (1 workflow)**
 
