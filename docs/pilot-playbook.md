@@ -2,6 +2,8 @@
 
 In NHS, the first pilot determines everything. A successful pilot becomes a case study, which becomes proof for the next buyer. This playbook covers every step from signed deal to expansion proposal.
 
+Not every pilot will hit every target. That is expected. What matters is running the pilot with rigour, measuring honestly, learning from what works and what does not, and using that learning to make the next one better. The graft of getting a pilot live — navigating IG, aligning stakeholders, solving integration edge cases — is valuable regardless of the final numbers.
+
 ---
 
 ## Pre-Pilot (2 Weeks Before Launch)

@@ -205,6 +205,22 @@ All 15 workflows are structurally complete and demo-ready. The metrics below rep
 
 ---
 
+## How I Work
+
+This project reflects the way I approach GTM work — and the values I operate by.
+
+**Urgency over perfection.** The entire engine was built in weeks, not months. When the typical timeline for standing up a GTM function is 6-12 months, I asked "how do we do this in 1?" Every workflow was designed around speed: signal-to-outreach in under 24 hours, campaign deployment in under 5 minutes, weekly kill/scale cycles on what's working and what isn't.
+
+**Respect for the buyer.** NHS professionals are busy. Their inboxes are full. The outreach methodology here — short emails, soft CTAs, peer-to-peer tone, immediate unsubscribe handling — isn't just a conversion tactic. It's a genuine belief that good GTM starts with respecting people's time and attention.
+
+**Accountability through transparency.** Every decision is documented. Every workflow is explained in plain English. Verification checkpoints are built into every phase — not to prove things are going well, but to catch problems early and course-correct honestly. When campaigns underperform, the system doesn't hide it — it surfaces the data so we can learn and iterate.
+
+**Excellence in the details.** A 5-dimension scoring rubric. A 6-way AI reply classification. Pre-pilot IG compliance checklists. The difference between "good enough" and "excellent" is in the details that most people skip.
+
+**Celebrating the graft.** Building 15 workflows from scratch as a solo operator meant learning every tool, hitting dead ends, rebuilding what didn't work, and iterating constantly. Not every campaign angle will land. Not every pilot will convert. That's the nature of 0-to-1 work — and the effort of building, testing, and improving matters as much as the outcomes.
+
+---
+
 ## About
 
 This GTM engine was designed for a UK healthtech company launching an AI-powered product into the NHS social prescribing market. The system covers everything from finding the first lead to generating a case study after a successful pilot — built to be operated by connecting up to Claude Code using natural language.

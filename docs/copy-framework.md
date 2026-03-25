@@ -16,6 +16,8 @@ Peer-to-peer. Write like you are texting a colleague, not pitching a product. No
 
 The reader should feel like this came from someone who understands their world. Not from a marketing department.
 
+This is not just a tactic — it is a value. NHS professionals are stretched thin. Their inboxes are full of vendor noise. Respecting their time with short, honest, relevant messages is the right thing to do. That it also converts better is a bonus, not the reason.
+
 ---
 
 ## Subject Lines
@@ -84,6 +86,8 @@ Run 4-5 different angles at the same time. Each angle approaches the same proble
 - Patient experience angle.
 
 Kill underperformers weekly. Double down on winners. The copy framework is a living document that evolves based on what works. What gets replies this month might not work next month. Test constantly.
+
+Killing a campaign is not a failure. It is the system working. Every angle that does not land teaches you something about the market — what language resonates, what pain points are real, what timing matters. The graft of writing, testing, and iterating is where the real learning happens.
 
 ---
 

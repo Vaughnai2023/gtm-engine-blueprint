@@ -182,7 +182,7 @@ Either way — no hard feelings.
 3. **Outcomes**: How they report social prescribing outcomes to NHSE
 4. **Mandate**: The 6,500 link worker target by 2030
 
-Kill underperformers weekly. Scale winners.
+Kill underperformers weekly. Scale winners. Killing an angle is not failure — it is the system working. Every test that does not land sharpens your understanding of the market. Document what you learned and move on.
 
 **Channel 3: LinkedIn Content (Signal Generation + Authority)**
 
@@ -426,6 +426,8 @@ Approved -> Pilot Signed (70%)
 - Push winning LinkedIn posts into Thought Leader Ads (paid amplification).
 - Define criteria for first SDR hire based on volume and conversion data.
 - **Day 90 Review**: Pipeline value, cost per demo, best channels, close rate, champion count, pilot health.
+
+**A note on accountability**: This roadmap includes aggressive targets. Some will be missed. The point of tracking is not to hit every number — it is to learn fast, course-correct honestly, and build a system that compounds over time. What matters is the quality of the iteration, not perfection on day one.
 
 ---
 
