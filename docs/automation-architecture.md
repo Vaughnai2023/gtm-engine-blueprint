@@ -1,20 +1,18 @@
-# Automation Architecture — 15 Workflows
+# Automation Architecture: 15 Workflows
 
-This document explains every workflow in the GTM automation suite in plain English. Each write-up tells you what the workflow does, why it matters, and how it connects to the rest of the system.
+This document covers every workflow in the GTM automation suite. Each section explains what the workflow does, how it is triggered, and how it connects to the rest of the system.
 
 ---
 
 ## Overview
 
-This is a fully automated go-to-market engine for an AI product in the NHS social prescribing space. It finds leads, qualifies them, runs outreach, handles replies, and manages pilot programmes — all without manual effort beyond responding to interested prospects and running demos.
-
 The suite contains 15 workflows organised into five layers:
 
-- **Signal Intelligence** — monitors that scan the NHS landscape for buying signals
-- **Engagement Pipeline** — captures and qualifies people who interact with content
-- **Reply Management** — AI-powered classification of every email reply
-- **Pilot Lifecycle** — automates onboarding, tracking, and case study generation
-- **Infrastructure** — error handling that watches the whole system
+- **Signal Intelligence**: scheduled monitors that scan the NHS landscape for buying signals
+- **Engagement Pipeline**: captures and qualifies people who interact with content
+- **Reply Management**: AI-powered classification of every email reply
+- **Pilot Lifecycle**: automates onboarding, tracking, and case study generation
+- **Infrastructure**: error handling across the system
 
 ---
 
@@ -102,60 +100,58 @@ The suite contains 15 workflows organised into five layers:
 
 ---
 
-## Workflow Guide (Plain English)
+## Workflow Guide
 
 ### WF-00: Error Handler
 
-Safety net for the whole system. If any workflow breaks — API down, unexpected data format — this catches the error and sends a clear Slack message explaining what went wrong, which workflow failed, and when.
+Catches errors from any workflow in the suite and sends a Slack message with the error details, the workflow that failed, and the timestamp.
 
 ---
 
 ### WF-01a: NHS Jobs Scraper
 
-Every Monday at 6 AM, checks NHS Jobs for link worker vacancies. If a role has been open 30+ days, that is a signal the organisation cannot hire. High-priority vacancies go to enrichment. Newer ones go to a monitoring list.
+Runs every Monday at 6 AM. Checks NHS Jobs for link worker vacancies. Roles open 30+ days are flagged as high-priority signals and sent to enrichment. Newer vacancies go to a monitoring list.
 
-**Why it matters:** A long-open vacancy means the organisation is struggling with capacity. That is a strong buying signal for an AI product that supports link workers.
+A long-open vacancy indicates the organisation cannot hire for the role, which is a buying signal for an AI product that supports link workers.
 
 ---
 
-### WF-01b: NHS Jobs — Enrichment Callback
+### WF-01b: NHS Jobs, Enrichment Callback
 
-When enrichment finishes processing contacts from WF-01a, this workflow handles the results. ICP score 7+? Checks the CRM for duplicates. New contacts get a CRM record, a deal, a cold email campaign, and a Slack notification. Existing contacts are flagged for manual review. Low-scoring contacts are added as marketing leads.
+Processes enrichment results from WF-01a. Contacts with ICP score 7+ are checked against the CRM for duplicates. New contacts receive a CRM record, a deal, a cold email campaign assignment, and a Slack notification. Existing contacts are flagged for manual review. Low-scoring contacts are added as marketing leads.
 
 ---
 
 ### WF-02a: LinkedIn Engagement Capture
 
-Real-time webhook. When someone engages with LinkedIn content (like, comment, share), this checks if their title matches the ICP — Directors, Heads of Service, Clinical Directors, Commissioners, Digital Leads. Matches get pushed to enrichment. Non-ICP titles get skipped.
+Real-time webhook. When someone engages with LinkedIn content (like, comment, share), this workflow checks if their title matches the ICP: Directors, Heads of Service, Clinical Directors, Commissioners, Digital Leads. Matches go to enrichment. Non-ICP titles are skipped.
 
 ---
 
-### WF-02b: LinkedIn Engagement — Enrichment Callback
+### WF-02b: LinkedIn Engagement, Enrichment Callback
 
-Processes enriched LinkedIn engagers. Checks the CRM: active deal? Skip. Existing contact with no deal? Update with the new signal. New contact with a valid email and ICP score 6+? Add to an email campaign, create a CRM record, and send a Slack notification. Lower-scoring contacts go to nurture.
+Processes enriched LinkedIn engagers. Checks the CRM: active deal exists, skip. Existing contact with no deal, update with the new signal. New contact with a valid email and ICP score 6+, add to an email campaign, create a CRM record, send a Slack notification. Lower-scoring contacts go to nurture.
 
 ---
 
 ### WF-03: Reply Handler & Classification
 
-**This is the showcase piece of the whole suite.**
-
 When someone replies to a cold email, AI classifies intent into six categories:
 
-- **INTERESTED** — Urgent Slack alert + CRM deal at "Demo Requested" + remove from email sequence
-- **OBJECTION** — Slack notification for manual response + CRM tag + pause sequence
-- **NOT NOW** — CRM tag for 60-day re-engage + remove from campaign + scheduled re-engagement
-- **WRONG PERSON** — Extract company domain, re-enrich, find the actual decision-maker, add them to a new campaign
-- **UNSUBSCRIBE** — Remove from all campaigns + mark "Do Not Contact"
-- **AUTO REPLY** — No action, sequence continues
+- **INTERESTED**: Urgent Slack alert + CRM deal at "Demo Requested" + remove from email sequence
+- **OBJECTION**: Slack notification for manual response + CRM tag + pause sequence
+- **NOT NOW**: CRM tag for 60-day re-engage + remove from campaign + scheduled re-engagement
+- **WRONG PERSON**: Extract company domain, re-enrich, find the actual decision-maker, add them to a new campaign
+- **UNSUBSCRIBE**: Remove from all campaigns + mark "Do Not Contact"
+- **AUTO REPLY**: No action, sequence continues
 
-The WRONG PERSON branch is particularly powerful. Instead of losing a lead, the system automatically finds the right person at the same organisation.
+The WRONG PERSON branch recovers leads that would otherwise be lost by automatically finding the correct contact at the same organisation.
 
 ---
 
 ### WF-04: NHS Board Paper Monitor
 
-Every Wednesday at 7 AM, AI analyses ICB board paper excerpts. It looks for organisations struggling with link worker capacity, planning social prescribing expansion, or reviewing digital transformation. Each signal gets an urgency rating from 1 to 10. Score 6+: flagged for enrichment, CRM, and Slack. Lower scores: logged for trend tracking.
+Runs every Wednesday at 7 AM. AI analyses ICB board paper excerpts for organisations struggling with link worker capacity, planning social prescribing expansion, or reviewing digital transformation. Each signal receives an urgency rating from 1 to 10. Score 6+: flagged for enrichment, CRM, and Slack. Lower scores: logged for trend tracking.
 
 ---
 
@@ -167,7 +163,7 @@ Triggers when a CRM deal moves to "Pilot Signed". Updates the deal with pilot da
 
 ### WF-05b: Weekly Pilot Health Check
 
-Every Friday, pulls pilot metrics and compares them against reference benchmarks. Below target? Slack alert. Updates the dashboard. Sends the client a weekly summary with metrics, benchmark comparison, and next week's focus area.
+Runs every Friday. Pulls pilot metrics and compares them against reference benchmarks. Below target: Slack alert. Updates the dashboard. Sends the client a weekly summary with metrics, benchmark comparison, and next week's focus area.
 
 ---
 
@@ -175,10 +171,10 @@ Every Friday, pulls pilot metrics and compares them against reference benchmarks
 
 Daily check: is any pilot hitting a milestone week?
 
-- **Week 4** — First outcomes review request
-- **Week 8** — Mid-pilot review + expansion conversation
-- **Week 10** — Internal alert to prepare expansion proposal
-- **Week 12** — Final review + expansion offer
+- **Week 4**: First outcomes review request
+- **Week 8**: Mid-pilot review + expansion conversation
+- **Week 10**: Internal alert to prepare expansion proposal
+- **Week 12**: Final review + expansion offer
 
 ---
 
@@ -190,17 +186,17 @@ When a pilot ends, pulls final metrics. AI generates a structured case study dra
 
 ### WF-06a: Content Engagement Flywheel
 
-Every evening at 8 PM, pulls the full day's LinkedIn engagement. Filters out non-ICP titles. Pushes qualified engagers to enrichment in batch. This is the daily batch version of WF-02a (which captures engagement in real time).
+Runs every evening at 8 PM. Pulls the full day's LinkedIn engagement. Filters out non-ICP titles. Pushes qualified engagers to enrichment in batch. This is the daily batch version of WF-02a (which captures engagement in real time).
 
 ---
 
-### WF-06b: Content Engagement — Enrichment Callback
+### WF-06b: Content Engagement, Enrichment Callback
 
 Routes each lead by ICP score:
 
-- **8-10 (hot)** — Personalised email campaign
-- **5-7 (warm)** — Value-first email campaign
-- **Below 5** — CRM marketing contact only
+- **8-10 (hot)**: Personalised email campaign
+- **5-7 (warm)**: Value-first email campaign
+- **Below 5**: CRM marketing contact only
 
 Sends a daily Slack summary of all new leads.
 
@@ -208,24 +204,24 @@ Sends a daily Slack summary of all new leads.
 
 ### WF-07: Competitor Contract Monitor
 
-Every two weeks on Monday at 7 AM, checks NHS procurement portals for social prescribing contracts involving incumbent vendors. AI cross-references against known competitors. Contract expiring within 90 days? Decision-maker enrichment + "Competitor Displacement" CRM opportunity + Slack alert. Longer-dated contracts are logged for monitoring.
+Runs every two weeks on Monday at 7 AM. Checks NHS procurement portals for social prescribing contracts involving incumbent vendors. AI cross-references against known competitors. Contract expiring within 90 days: decision-maker enrichment + "Competitor Displacement" CRM opportunity + Slack alert. Longer-dated contracts are logged for monitoring.
 
 ---
 
 ### WF-08: Leadership Appointment Monitor
 
-Every Friday at 9 AM, watches for new Clinical Directors and Digital Leads at ICBs and PCNs. Enriches the contact. Then checks: does the parent healthtech company already operate in that geography? If yes: Slack alert for a warm intro opportunity. If no: add to cold outreach. Either way: CRM contact created with a "New Appointment" tag.
+Runs every Friday at 9 AM. Watches for new Clinical Directors and Digital Leads at ICBs and PCNs. Enriches the contact. Checks whether the parent healthtech company already operates in that geography. If yes: Slack alert for a warm intro opportunity. If no: add to cold outreach. CRM contact created with a "New Appointment" tag in both cases.
 
 ---
 
-## How the Whole System Works Together
+## How the System Works Together
 
-**Finding leads.** Four signal monitors (WF-01a, WF-04, WF-07, WF-08) scan the NHS landscape automatically — job vacancies, board papers, competitor contracts, leadership changes. Two engagement pipelines (WF-02a/b and WF-06a/b) capture people who interact with LinkedIn content. All of these feed leads into enrichment, then into the CRM and email campaigns.
+**Finding leads.** Four signal monitors (WF-01a, WF-04, WF-07, WF-08) scan the NHS landscape automatically for job vacancies, board papers, competitor contracts, and leadership changes. Two engagement pipelines (WF-02a/b and WF-06a/b) capture people who interact with LinkedIn content. All of these feed leads into enrichment, then into the CRM and email campaigns.
 
-**Working leads.** Once leads are receiving cold emails, WF-03 handles every reply with AI. Interested leads become deals. Objections get manual attention. "Not now" leads get re-engaged later. Wrong-person replies get automatically rerouted to the right decision-maker.
+**Working leads.** Once leads are receiving cold emails, WF-03 handles every reply with AI. Interested leads become deals. Objections get manual attention. "Not now" leads get re-engaged later. Wrong-person replies get automatically rerouted to the correct decision-maker.
 
-**Closing deals.** When a deal progresses to a signed pilot, the pilot lifecycle suite (WF-05a through WF-05d) takes over — onboarding, weekly health checks, milestone-triggered actions, and a case study generated from the pilot's results.
+**Closing deals.** When a deal progresses to a signed pilot, the pilot lifecycle suite (WF-05a through WF-05d) takes over: onboarding, weekly health checks, milestone-triggered actions, and a case study generated from the pilot's results.
 
-**Staying safe.** WF-00 watches everything. If anything breaks, the team knows immediately.
+**Error handling.** WF-00 monitors all workflows and alerts the team immediately on any failure.
 
-**The result:** the team's only manual work is responding to interested replies, running demos, and managing pilot relationships. Everything else happens automatically.
+The manual work that remains is responding to interested replies, running demos, and managing pilot relationships. Everything else is automated.

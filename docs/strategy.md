@@ -1,28 +1,24 @@
-# GTM Strategy — Complete Execution Playbook
+# GTM Strategy
 
-This is the complete execution playbook for a GTM engine built to launch an AI-powered product into the NHS social prescribing market. One founding hire. Zero existing pipeline. Budget under £350/month.
+Execution playbook for launching an AI-powered product into the NHS social prescribing market. One founding hire. Zero existing pipeline. Budget under £350/month.
 
 ---
 
 ## Context
 
-The parent healthtech company has 1,200+ GP surgeries, 18M patients, and ~15% GP market share. The AI product is a new AI-first brand launching AI-powered link workers that identify and support patients without manual healthcare staff intervention. The product is built and proven. The founding AI GTM Lead will build the entire go-to-market engine from scratch as a solo operator, working directly with the founder.
-
-A "go-to-market engine" is the system of tools, processes, and campaigns that takes a product from "built" to "sold." This playbook is that system.
+The parent healthtech company has 1,200+ GP surgeries, 18M patients, and ~15% GP market share. The AI product is a new brand launching AI-powered link workers that identify and support patients without manual healthcare staff intervention. The product is built and proven. The founding GTM Lead builds the entire go-to-market engine from scratch as a solo operator, working directly with the founder.
 
 **Market tailwinds:**
-- NHS targeting 6,500 link workers by end of decade (up from 3,500 today) — massive workforce gap
+- NHS targeting 6,500 link workers by end of decade (up from 3,500 today)
 - 1.3M social prescribing referrals in 2023, exceeding the 900K NHS Long Term Plan target
-- 6,172 GP practices in England (declining from 7,254 in 2018 — consolidation = bigger buying units)
-- Average GP now handles 2,214 patients (up 14.2% since 2015) — burnout and capacity crisis
+- 6,172 GP practices in England (declining from 7,254 in 2018, consolidation creating larger buying units)
+- Average GP now handles 2,214 patients (up 14.2% since 2015)
 
-**Core thesis:** You can't hire enough human link workers. You can deploy AI ones overnight.
+**Core thesis:** The demand for link workers exceeds the available workforce. AI link workers can be deployed without recruitment timelines or capacity constraints.
 
 ---
 
 ## ICP Definition
-
-ICP stands for Ideal Customer Profile. These are the people most likely to buy, ranked by priority.
 
 ### Tier 1: ICB Commissioners & PCN Clinical Directors
 
@@ -30,12 +26,12 @@ ICBs (Integrated Care Boards) control NHS budgets at a regional level. PCNs (Pri
 
 - **Titles**: Director of Primary Care, Director of Population Health, PCN Clinical Director, Head of Social Prescribing, Digital Transformation Lead
 - **Firmographics**: ICBs with 20+ practices, PCNs with active social prescribing programmes
-- **Pain**: Can't recruit enough link workers, referral backlogs growing, commissioners demanding outcome data they can't produce
+- **Pain**: Cannot recruit enough link workers, referral backlogs growing, commissioners demanding outcome data they cannot produce
 - **Triggers**: Link worker vacancies open 30+ days on NHS Jobs, contract renewal cycles, new NHS England mandates, ICB board papers mentioning workforce challenges
 
 ### Tier 2: Local Authority Public Health Teams
 
-Local councils often fund social prescribing services alongside the NHS. They care about prevention and cost savings.
+Local councils often fund social prescribing services alongside the NHS. They are focused on prevention and cost savings.
 
 - **Titles**: Director of Public Health, Head of Health Improvement, Social Prescribing Commissioner
 - **Firmographics**: Councils funding social prescribing services
@@ -44,14 +40,14 @@ Local councils often fund social prescribing services alongside the NHS. They ca
 
 ### Tier 3: VCSE Social Prescribing Providers
 
-VCSE stands for Voluntary, Community, and Social Enterprise. These are the charities and social enterprises that actually deliver social prescribing on the ground.
+VCSE stands for Voluntary, Community, and Social Enterprise. These are the charities and social enterprises that deliver social prescribing on the ground.
 
 - **Titles**: CEO, Head of Operations, Social Prescribing Manager
 - **Firmographics**: Charities/social enterprises contracted to deliver social prescribing
-- **Pain**: Overwhelmed link workers, waitlists, can't scale referral volume
+- **Pain**: Overwhelmed link workers, waitlists, cannot scale referral volume
 - **Triggers**: Contract renewals, expanding into new PCN areas
 
-**Execution priority**: Start with Tier 1 ICBs where the parent company already has GP coverage. This is the fastest path to first demos and pilots.
+**Execution priority**: Start with Tier 1 ICBs where the parent company already has GP coverage. This provides the fastest path to first demos and pilots through existing trust.
 
 ---
 
@@ -59,22 +55,22 @@ VCSE stands for Voluntary, Community, and Social Enterprise. These are the chari
 
 ### Core Value Proposition
 
-"AI link workers that identify, triage, and connect patients to community services — 24/7, no recruitment, no waitlists."
+"AI link workers that identify, triage, and connect patients to community services, 24/7, without recruitment or waitlists."
 
-Social prescribing connects patients with non-medical support (exercise classes, debt advice, community groups). Link workers are the people who make those connections. There aren't enough of them. The AI product fills that gap.
+Social prescribing connects patients with non-medical support (exercise classes, debt advice, community groups). Link workers are the people who make those connections. The AI product fills the capacity gap.
 
 ### The Offer (Objection-Preempting)
 
-> "Deploy AI link workers that triage and connect patients to community services — without additional headcount, without long procurement cycles, without replacing your existing link workers, and without risking patient safety. Proven across 1,200+ GP practices. Start with a 90-day pilot at zero risk."
+> "Deploy AI link workers that triage and connect patients to community services, without additional headcount, without long procurement cycles, without replacing your existing link workers, and without risking patient safety. Proven across 1,200+ GP practices. Start with a 90-day pilot at zero risk."
 
-This offer is designed to neutralise the four biggest objections before the prospect raises them: cost, procurement complexity, job displacement fear, and safety concerns.
+This offer is structured to neutralise the four primary objections before the prospect raises them: cost, procurement complexity, job displacement, and safety concerns.
 
 ### Offer Intensity by Lead Type
 
 | Lead Quality | Offer | CTA |
 |---|---|---|
 | Perfect fit (ICB where the parent company already operates) | Direct pilot proposal | "Can I send over the pilot outline?" |
-| Good fit (ICB with known workforce issues) | Value-first — proof deck | "Want me to share the case study?" |
+| Good fit (ICB with known workforce issues) | Value-first proof deck | "Want me to share the case study?" |
 | Broad/cold (any ICB/PCN) | Curiosity hook | "Is link worker capacity something you're solving for?" |
 
 ### Proof Points
@@ -87,40 +83,38 @@ This offer is designed to neutralise the four biggest objections before the pros
 
 ### Competitive Differentiation
 
-| Competitor | Their Approach | Our Advantage |
+| Competitor | Their Approach | Differentiation |
 |---|---|---|
-| Competitor A (legacy software) | Software for human link workers | AI replaces the bottleneck — human capacity constraint |
+| Competitor A (legacy software) | Software for human link workers | AI removes the human capacity constraint |
 | Competitor B (AI service matching) | AI service matching, still needs human workflow | End-to-end AI: identification + triage + connection |
 | Competitor C (case management) | Basic case management | Purpose-built AI, not a bolt-on module |
 
-**Key differentiation**: Everyone else digitises the existing workflow. This product replaces the bottleneck entirely with AI.
+**Key differentiation**: Competitors digitise the existing workflow. This product replaces the bottleneck with AI.
 
 ---
 
 ## Channel Strategy & Flywheel
 
-This section defines where outreach happens and in what order. The order matters. Each channel feeds the next.
+Outreach channels are executed in a specific order. Each channel feeds the next.
 
-### Execution Order (Critical — This Is Not Alphabetical)
+### Execution Order
 
-**Channel 1: Warm Network (Weeks 1-2 — Fastest Path to First Demos)**
+**Channel 1: Warm Network (Weeks 1-2)**
 
-The parent company's 1,200+ GP surgeries are the unfair advantage. Execute first:
+The parent company's 1,200+ GP surgeries provide a direct path to ICB decision-makers. Execute first:
 
 1. Map customers whose ICBs/PCNs struggle with link worker capacity
 2. Identify 10-15 ICBs with highest GP coverage
 3. Warm introductions from existing GP contacts to ICB commissioners
-4. Position: "Your practices already use our platform. This adds AI link workers on top — here's the incremental ROI."
+4. Position: "Your practices already use our platform. This adds AI link workers on top, here is the incremental ROI."
 5. Reference calls from happy customers to validate AI capability
 6. Check if the parent company has G-Cloud/DOS framework agreements the product can ride
 
 **Target**: 5-8 warm intro conversations in first 2 weeks.
 
-**Channel 2: Outbound — Cold Email + LinkedIn (Weeks 3+ After Domain Warmup)**
+**Channel 2: Outbound, Cold Email + LinkedIn (Weeks 3+ After Domain Warmup)**
 
-Signal-triggered, hyper-personalised outreach to Tier 1 ICB/PCN decision-makers.
-
-"Signal-triggered" means outreach is sent in response to a real event (a job posting, a board paper, a LinkedIn interaction) — not randomly.
+Signal-triggered, personalised outreach to Tier 1 ICB/PCN decision-makers. Signal-triggered means outreach is sent in response to a real event (a job posting, a board paper, a LinkedIn interaction), not randomly.
 
 **Volume ramp:**
 - Weeks 1-2: Domain warmup only (no cold sends)
@@ -131,7 +125,7 @@ Signal-triggered, hyper-personalised outreach to Tier 1 ICB/PCN decision-makers.
 
 **Targeting discipline for small TAM:**
 
-TAM means Total Addressable Market. In this case it's small — only 42 ICBs and ~1,300 PCNs in England. Every outreach touch must be deliberate.
+The TAM is small: 42 ICBs and ~1,300 PCNs in England. Every outreach touch must be deliberate.
 
 - Maximum 2 contacts per ICB in first 30 days
 - Reserve multi-threading for non-responsive accounts after 30 days
@@ -139,7 +133,7 @@ TAM means Total Addressable Market. In this case it's small — only 42 ICBs and
 
 **Email Sequences:**
 
-*Sequence A — The Workforce Gap Hook (Permission-First):*
+*Sequence A, Workforce Gap Hook (Permission-First):*
 
 Email 1:
 ```
@@ -147,7 +141,7 @@ Subject: quick question {{firstName}}
 
 {{firstName}}, saw {{PCN/ICB name}} has {{X}} link worker roles open on NHS Jobs.
 
-Curious — if you could deploy an AI link worker that triages referrals 24/7 without adding headcount, would that be worth a 15-min look?
+Curious, if you could deploy an AI link worker that triages referrals 24/7 without adding headcount, would that be worth a 15-min look?
 
 No pitch, just a quick walkthrough of what one ICB did to cut their referral backlog by 60%.
 
@@ -158,14 +152,14 @@ Email 2 (3 days later):
 ```
 Subject: re: quick question {{firstName}}
 
-{{firstName}}, just bumping this — know your inbox is a warzone.
+{{firstName}}, just bumping this, know your inbox is busy.
 
 The short version: AI link workers processing 5,500+ referrals/week, 78% well-being improvement, zero recruitment needed.
 
 Worth a quick look?
 ```
 
-Email 3 — Breakup (4 days later):
+Email 3, Breakup (4 days later):
 ```
 Subject: closing the loop
 
@@ -173,40 +167,40 @@ Subject: closing the loop
 
 If referral backlogs or link worker recruitment becomes a priority, happy to share what's working for other ICBs.
 
-Either way — no hard feelings.
+Either way, no hard feelings.
 ```
 
 *Run 4 parallel campaign angles:*
-1. **Workforce Gap**: Link worker vacancies they can't fill
+1. **Workforce Gap**: Link worker vacancies they cannot fill
 2. **Cost**: What they spent on link worker recruitment last year
 3. **Outcomes**: How they report social prescribing outcomes to NHSE
 4. **Mandate**: The 6,500 link worker target by 2030
 
-Kill underperformers weekly. Scale winners. Killing an angle is not failure — it is the system working. Every test that does not land sharpens your understanding of the market. Document what you learned and move on.
+Review performance weekly. Kill underperforming angles and scale those with positive reply rates. Document learnings from each angle that gets cut.
 
 **Channel 3: LinkedIn Content (Signal Generation + Authority)**
 
-Founder-led content positioning the product as the AI-first answer to the workforce crisis.
+Founder-led content positioning the product as the AI-first approach to the workforce gap.
 
 **Cadence**: 3-5 posts/week from founder's profile + 2-3/week from GTM Lead's profile.
 
 **Content themes:**
-1. The Workforce Crisis — Data on link worker shortages, GP burnout stats
-2. AI in NHS — Myth vs. Reality — AI handles triage, humans handle complex cases
-3. Proof & Results — Anonymised case studies, before/after metrics
-4. Old Way vs. New Way — Manual referral process vs. AI-powered identification
-5. NHS Digital Transformation — Commentary on policy and NHSE announcements
+1. The Workforce Crisis: data on link worker shortages, GP burnout stats
+2. AI in NHS, Myth vs. Reality: AI handles triage, humans handle complex cases
+3. Proof & Results: anonymised case studies, before/after metrics
+4. Old Way vs. New Way: manual referral process vs. AI-powered identification
+5. NHS Digital Transformation: commentary on policy and NHSE announcements
 
-**Signal capture**: Every engagement from ICP-matching profiles gets enriched and routed to outbound. This is automated via the workflow engine.
+**Signal capture**: Engagement from ICP-matching profiles is enriched and routed to outbound automatically via the workflow engine.
 
 **Channel 4: WhatsApp (Warm Follow-Ups + Community)**
 
-NHS social prescribing circles use WhatsApp groups heavily. High-trust, low-noise channel competitors aren't using.
+NHS social prescribing circles use WhatsApp groups heavily. This is a high-trust, low-noise channel that competitors are not using.
 
 **Approach:**
 - Join relevant NHS/social prescribing communities
-- Use WhatsApp for warm follow-ups after LinkedIn connection — never cold
-- Share proof points and NHS commentary in groups as a peer/expert
+- Use WhatsApp for warm follow-ups after LinkedIn connection, never cold
+- Share proof points and NHS commentary in groups as a peer
 - Build a broadcast list for key contacts (opt-in only)
 
 **Channel 5: NHS Events & Conferences (Relationship Building)**
@@ -217,7 +211,7 @@ Attend, speak where possible, capture contacts, follow up within 24 hours via em
 
 ### The Flywheel
 
-A flywheel is a self-reinforcing loop. Each part of the system feeds the next, so momentum builds over time.
+Each channel feeds the next in a reinforcing loop:
 
 ```
 Warm network generates first demos + proof points
@@ -245,27 +239,27 @@ WhatsApp maintains warm relationships between formal touchpoints
 
 ## Signal Intelligence
 
-Signals are real-world events that tell you when a prospect is most likely to buy. The faster you respond to a signal, the higher your conversion rate.
+Signals are real-world events that indicate when a prospect is likely to buy. Faster response to a signal correlates with higher conversion rates.
 
 ### Signal Sources & Response Windows
 
 | Signal | Source | Response Window | Action |
 |---|---|---|---|
-| Link worker vacancy open 30+ days | NHS Jobs (automated monitor) | Within 24 hours | Tier A outreach — direct pilot pitch |
+| Link worker vacancy open 30+ days | NHS Jobs (automated monitor) | Within 24 hours | Tier A outreach, direct pilot pitch |
 | ICB board paper mentions workforce challenges | Board paper monitor (automated) | Within 48 hours | Tier A outreach with board paper reference |
 | ICP engages with social prescribing content on LinkedIn | Engagement capture tool | Same day | Enrich and send contextual outbound |
-| New Clinical Director / Digital Lead appointed | LinkedIn / NHS announcements | Within 1 week | 90-day window play — warm intro |
+| New Clinical Director / Digital Lead appointed | LinkedIn / NHS announcements | Within 1 week | 90-day window, warm intro |
 | ICB publishes digital transformation strategy | NHS publications monitor | Within 1 week | Tier B outreach referencing strategy |
 | NASP/NHSE social prescribing announcement | News monitoring | Within 24 hours | Founder LinkedIn commentary + outbound |
-| Competitor contract up for renewal | Contract Finder / procurement portals | Within 1 week | Tier A outreach — switching angle |
+| Competitor contract up for renewal | Contract Finder / procurement portals | Within 1 week | Tier A outreach, switching angle |
 
-### Signal Stacking (Highest Confidence Combinations)
+### Signal Stacking
 
-Signal stacking means combining two or more signals to identify the highest-priority prospects. One signal is useful. Two together are a strong buy indicator.
+Combining two or more signals identifies the highest-priority prospects.
 
-1. **Link worker vacancy 30+ days + ICB board paper mentioning workforce** = actively struggling AND leadership aware. Highest priority outreach.
-2. **New Clinical Director + parent company already deployed at their GP practices** = new decision-maker + existing trust. Warm intro.
-3. **NASP event attendance + LinkedIn engagement with social prescribing content** = actively learning AND engaged. Strong outbound candidate.
+1. **Link worker vacancy 30+ days + ICB board paper mentioning workforce** = organisation is actively struggling and leadership is aware. Highest priority.
+2. **New Clinical Director + parent company already deployed at their GP practices** = new decision-maker with existing trust. Warm intro path.
+3. **NASP event attendance + LinkedIn engagement with social prescribing content** = actively engaged in the space. Strong outbound candidate.
 4. **Engaging with our content + ICP firmographic match** = warm signal. Contextual follow-up referencing specific post.
 
 ### Boolean Query for LinkedIn Monitoring
@@ -303,16 +297,16 @@ NOT ("job alert" OR "congratulations" OR "thrilled to announce" OR "proud to sha
 
 ### Tool Roles
 
-- **Clay** = Brain (data processing, enrichment, scoring)
-- **n8n** = Nervous system (workflow orchestration, triggers, routing)
-- **Instantly** = Voice (email delivery, warmup, campaign execution)
-- **Claude Code** = Fast-path orchestrator (campaign creation in 5-7 minutes)
+- **Clay**: Data processing, enrichment, scoring
+- **n8n**: Workflow orchestration, triggers, routing
+- **Instantly**: Email delivery, warmup, campaign execution
+- **Claude Code**: Campaign creation in 5-7 minutes via natural language
 
 ---
 
 ## Customer Onboarding & Pilot Success
 
-For the full pilot playbook, see [docs/pilot-playbook.md](pilot-playbook.md).
+For the full pilot playbook, see [pilot-playbook.md](pilot-playbook.md).
 
 ---
 
@@ -320,9 +314,9 @@ For the full pilot playbook, see [docs/pilot-playbook.md](pilot-playbook.md).
 
 ### Why Standard SaaS Funnels Don't Apply
 
-NHS buying doesn't follow linear Demo to Proposal to Close patterns. There is an internal socialisation phase, multi-stakeholder alignment, and IG (Information Governance) review that standard funnel maths ignore.
+NHS buying does not follow linear Demo to Proposal to Close patterns. There is an internal socialisation phase, multi-stakeholder alignment, and IG (Information Governance) review that standard funnel models do not account for.
 
-"Socialisation" in NHS context means the champion has to get buy-in from clinical leads, IG teams, finance, and sometimes a full procurement board before anything gets signed.
+Socialisation in NHS context means the champion must get buy-in from clinical leads, IG teams, finance, and sometimes a full procurement board before anything gets signed.
 
 ### Realistic Funnel
 
@@ -346,7 +340,7 @@ Approved -> Pilot Signed (70%)
 - Need 35-50 demos
 - The warm path compresses this significantly (skip socialisation for ICBs with existing trust)
 
-### Timeline Reality
+### Timeline
 
 - **Warm path**: 4-8 weeks from first conversation to pilot signed
 - **Cold outbound path**: 3-6 months from first demo to pilot signed
@@ -382,8 +376,8 @@ Approved -> Pilot Signed (70%)
 - Build master account list: all 42 ICBs + top 200 PCNs. Map decision-makers.
 - Map the parent company's existing network for warm intro opportunities. Identify top 10-15 ICBs with highest GP coverage.
 - Purchase 3-5 secondary domains. Set up email infrastructure. Start warmup.
-- Set up Clay workspace — build enrichment tables.
-- Set up CRM — pipeline stages matching NHS buying cycle.
+- Set up Clay workspace, build enrichment tables.
+- Set up CRM, pipeline stages matching NHS buying cycle.
 - Set up AI orchestration workspace: instruction files, scoring criteria, copy frameworks.
 
 **Week 2:**
@@ -397,15 +391,15 @@ Approved -> Pilot Signed (70%)
 - Launch first cold outbound campaigns to top 50 perfect-fit ICBs/PCNs (10-15/day).
 - Begin LinkedIn outreach to Tier 1 decision-makers (15-20 connections/day).
 - Deploy LinkedIn engagement capture workflow.
-- First demo conversations — refine pitch alongside founder.
+- First demo conversations, refine pitch alongside founder.
 
 **Week 4:**
 - First performance review: kill underperforming sequences, scale winners.
 - Update copy frameworks with winning templates.
 - Deploy content engagement flywheel workflow.
-- First LinkedIn content insights: which topics generate most ICP engagement?
+- Review LinkedIn content performance: which topics generate most ICP engagement.
 
-### Days 31-60: Scale What Works + Build Pipeline
+### Days 31-60: Scale + Build Pipeline
 
 - Scale outbound to 25-40 emails/day across warmed inboxes.
 - Launch Tier 2 campaigns (local authority public health teams).
@@ -413,7 +407,7 @@ Approved -> Pilot Signed (70%)
 - Add engagement signal capture tooling.
 - Build first case study / proof deck from early demo conversations.
 - Attend 1-2 NHS/social prescribing events. Follow up within 24 hours.
-- Begin tracking pipeline in CRM — forecast first pilots.
+- Begin tracking pipeline in CRM, forecast first pilots.
 - Create pilot onboarding checklist and success metrics template.
 - First pilot signed (target: via warm path).
 
@@ -427,7 +421,7 @@ Approved -> Pilot Signed (70%)
 - Define criteria for first SDR hire based on volume and conversion data.
 - **Day 90 Review**: Pipeline value, cost per demo, best channels, close rate, champion count, pilot health.
 
-**A note on accountability**: This roadmap includes aggressive targets. Some will be missed. The point of tracking is not to hit every number — it is to learn fast, course-correct honestly, and build a system that compounds over time. What matters is the quality of the iteration, not perfection on day one.
+This roadmap includes aggressive targets. Some will be missed. The purpose of tracking is to identify what is working, course-correct on what is not, and build data for future iterations.
 
 ---
 
@@ -447,7 +441,7 @@ Approved -> Pilot Signed (70%)
 1. **Pilot-first, not procurement-first**: Offer a paid pilot that Clinical Directors can approve without full procurement board sign-off.
 2. **Ride existing contracts**: If the parent company has G-Cloud/DOS framework agreements, the product deploys as an add-on. Check immediately.
 3. **Target the 90-day window**: New Clinical Directors and Digital Leads look for quick wins. Monitor appointments via the leadership tracking workflow.
-4. **Build the business case FOR them**: Give NHS decision-makers a pre-built ROI template for their board paper:
+4. **Build the business case for them**: Provide NHS decision-makers a pre-built ROI template for their board paper:
    - "The AI product will process X referrals/month currently in backlog"
    - "Based on pilot data, expect 20-28% reduction in GP appointments"
    - "Cost per referral via AI: £X vs. £Y per human link worker FTE"
@@ -457,27 +451,25 @@ Approved -> Pilot Signed (70%)
 
 ## Verification Checkpoints
 
-How to validate this strategy is working at each stage.
-
-### Week 2 checkpoint:
+### Week 2:
 - Warm intros initiated? First conversations booked?
 - Email infrastructure warming? Deliverability scores green?
 - Signal monitoring workflows deployed and running?
 - LinkedIn content live? First engagement from ICP?
 
-### Week 4 checkpoint:
+### Week 4:
 - First cold outbound sent? Open rates 45%+?
 - First demo booked? Pipeline in CRM?
 - Signal workflows producing qualified leads?
 - Copy frameworks document started with initial performance data?
 
-### Day 60 checkpoint:
+### Day 60:
 - 15+ demos completed? Champions identified at 5+ ICBs?
 - First pilot signed or in final negotiation?
 - All automation workflows deployed and operational?
 - Content generating measurable engagement from ICP?
 
-### Day 90 checkpoint:
+### Day 90:
 - 2-3 pilots signed and onboarding?
 - 10-15 champions actively socialising internally?
 - Pipeline value £200K+?

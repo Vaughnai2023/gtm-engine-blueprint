@@ -231,8 +231,6 @@ If reply rate is below 2% after testing 4-5 angles across clean, recently-warmed
 
 The formula is Volume x Deliverability x Offer. Infrastructure handles the first two terms. If both are healthy and results are still poor, the offer is the remaining variable. When the offer underperforms, inbox degradation also accelerates beyond the normal 4-week cycle, since low engagement signals compound deliverability problems.
 
-See the [copy framework](copy-framework.md) for the methodology on writing sequences and testing angles.
-
 ---
 
 ## Scaling
@@ -289,6 +287,5 @@ The initial manual test period (Weeks 3-6) serves to establish whether cold emai
 
 - Full 30/60/90 execution roadmap: [strategy.md](strategy.md)
 - Automation that takes over from manual processes: [automation-architecture.md](automation-architecture.md)
-- Email writing methodology: [copy-framework.md](copy-framework.md)
 - Running the first pilot: [pilot-playbook.md](pilot-playbook.md)
 - Lead scoring and routing: [scoring-criteria.md](scoring-criteria.md)
