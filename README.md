@@ -1,19 +1,18 @@
 # GTM Engine Blueprint
 
-**A complete go-to-market engine I built from scratch for a UK healthtech company launching an AI product into the NHS.**
+**A go-to-market engine for a UK healthtech company launching an AI product into the NHS. Built from scratch as a solo operator.**
 
-
-15 automation workflows. AI-powered pipeline management. An orchestration layer that deploys full outbound campaigns in under 5 minutes. One person. Zero existing pipeline.
+The system covers signal intelligence, outbound campaigns, reply classification, and pilot lifecycle management across 15 automation workflows. An AI orchestration layer handles campaign deployment in under 5 minutes using natural language commands.
 
 ---
 
 ## The Problem
 
-- A brand-new AI product with **zero pipeline** and **zero brand awareness**
-- A market (NHS) that is notoriously hard to sell into — long buying cycles, multi-stakeholder sign-off, strict information governance
-- A founding GTM role — meaning I build everything: strategy, systems, automation, outbound, content, pilot management
+- New AI product with no existing pipeline or brand awareness in the target market
+- The NHS buying cycle involves multiple stakeholders, strict information governance requirements, and long procurement timelines
+- A founding GTM role with sole responsibility for strategy, systems, automation, outbound, content, and pilot management
 
-**I needed to build a GTM engine that could find the right people, reach them with the right message, handle every response intelligently, and manage pilots from sign-up to case study — mostly on autopilot.**
+The requirement was a system that identifies high-intent prospects, reaches them with relevant messaging, classifies and routes every response, and manages pilots from onboarding through case study generation, with minimal manual intervention once configured.
 
 ---
 
