@@ -19,7 +19,7 @@
 
 ## System Overview
 
-> [Full GTM strategy](docs/strategy.md) · [Automation architecture](docs/automation-architecture.md) · [Pilot playbook](docs/pilot-playbook.md) · [ICP scoring](docs/scoring-criteria.md) · [Email methodology](docs/copy-framework.md)
+> [The ground game](docs/ground-game.md) · [Full GTM strategy](docs/strategy.md) · [Automation architecture](docs/automation-architecture.md) · [Pilot playbook](docs/pilot-playbook.md) · [ICP scoring](docs/scoring-criteria.md) · [Email methodology](docs/copy-framework.md)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -197,6 +197,7 @@ All 15 workflows are structurally complete and demo-ready. The metrics below rep
 
 | Document | What's Inside |
 |----------|--------------|
+| [The Ground Game](docs/ground-game.md) | Week 0 execution — product immersion, warm outreach, cold email infrastructure, inbox rotation, and the scaling reality |
 | [GTM Strategy](docs/strategy.md) | ICP definition, channel strategy, signal intelligence, pipeline model, 30/60/90 roadmap, pricing, metrics |
 | [Automation Architecture](docs/automation-architecture.md) | All 15 workflows explained in plain English — what they do, why they matter, how they connect |
 | [Pilot Playbook](docs/pilot-playbook.md) | Pre-pilot checklists, 12-week execution plan, metrics dashboard, expansion playbook |
